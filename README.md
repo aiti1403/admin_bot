@@ -21,8 +21,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/shoeshop-bot.git
-cd shoeshop-bot
+git clone https://github.com/aiti1403/admin_bot
+cd admin_bot
 ```
 
 2. Установите необходимые зависимости:
