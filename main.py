@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ID администраторов (замените на реальные ID)
-ADMIN_IDS = [7470235989, 1008609216, 801300839]
+ADMIN_IDS = [1008609216, 801300839]
 
 # Состояния для ConversationHandler
 (
@@ -2054,7 +2054,7 @@ def main():
     persistence = PicklePersistence(filepath="shoeshop_bot_data.pickle")
     
     # Создание приложения с персистентностью
-    application = Application.builder().token("7661062439:AAGcUacoYmkvExmgsr9EGEShn8aSjXLVFss").persistence(persistence).build()
+    application = Application.builder().token("").persistence(persistence).build()
     
     # Регистрация обработчиков
     application.add_handler(CommandHandler("register", register))
